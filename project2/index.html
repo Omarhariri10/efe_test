@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--<html dir="rtl" lang="ar">-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+    <link rel="stylesheet" href="style.css">
+    <title>countries information</title>
+    
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap');
+        </style>
+
+</head>
+
+<body>
+
+    <div class="outside">
+
+<div class=".cn__container">
+    <select onchange="getDialCode() & getCurrencies() & getCapital() & getFlag() & getIso2() & getIso3()" class="" name="" id="countryList">
+        <option></option>
+      </select>
+<span></span>
+      <span>
+      <h4>dialcode</h4>
+
+      <p class="muted" id="dialCode">--------</p>
+
+      </span>
+      <span></span>
+
+      <span>
+      <h4>currency</h4>
+      <p class="muted" id="currency">--------</p>
+
+      </span>
+
+
+      <span></span>
+
+      <span>
+      <h4>capital</h4>
+      <p class="muted" id="capital">--------</p>
+      </span>
+
+      
+      <span></span>
+
+      <span>
+      <h4>ISO2</h4>
+      <p class="muted" id="iso2">--------</p>
+      </span>
+
+      
+      <span></span>
+
+      <span>
+      <h4>ISO3</h4>
+      <p class="muted" id="iso3">--------</p>
+      </span>
+
+
+      <span></span>
+
+      <span>
+      <h4>flag</h4>
+      <div class="muted"  id="flag">--------</div>
+      </span>
+</div>
+
+<div id="result"></div>
+
+
+</div>
+<!-- Script -->
+    <script src="script.js"></script>
+
+    
+</body>
+
+</html>
